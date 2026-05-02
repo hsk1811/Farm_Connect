@@ -1,0 +1,30 @@
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+backend/node_modules/
+backend/dist/
+backend/data/
+backend/uploads/
+backend/*.log
+backend/.env
+backend/test_conn.js
+backend/fix_db_prepare.js
+backend/fix_promise.js
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/.cxx/
+android/*.iml
+android/.externalNativeBuild
+android/captures
+android/.idea/
+android/app/*.iml
+
+# OS
+.DS_Store
+Thumbs.db

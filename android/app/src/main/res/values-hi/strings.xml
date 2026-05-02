@@ -1,0 +1,159 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">फ़ार्मकनेक्ट</string>
+    
+    <!-- Auth Screens -->
+    <string name="login">लॉग इन करें</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="welcome_back">वापसी पर स्वागत है</string>
+    <string name="create_account">खाता बनाएं</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="role">भूमिका</string>
+    <string name="farmer">किसान</string>
+    <string name="buyer">खरीदार</string>
+    <string name="dont_have_account">खाता नहीं है? साइन अप करें</string>
+    <string name="already_have_account">पहले से खाता है? साइन इन करें</string>
+    
+    <!-- Navigation -->
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="my_listings">मेरी लिस्टिंग</string>
+    <string name="create_listing">लिस्टिंग बनाएं</string>
+    <string name="negotiations">बातचीत</string>
+    <string name="contracts">अनुबंध</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="back">वापस</string>
+    
+    <!-- Dashboard -->
+    <string name="hello">नमस्ते, %s!</string>
+    <string name="manage_farm_listings">अपनी फसल लिस्टिंग प्रबंधित करें</string>
+    <string name="find_fresh_produce">सीधे किसानों से ताज़ी फसल खरीदें</string>
+    <string name="quick_actions">त्वरित कार्य</string>
+    <string name="listings">लिस्टिंग</string>
+    <string name="my_crops">मेरी फसलें</string>
+    <string name="browse">ब्राउज़ करें</string>
+    <string name="active_deals">सक्रिय सौदे</string>
+    <string name="your_agreements">आपके अनुबंध</string>
+    <string name="disputes">विवाद</string>
+    <string name="issues">समस्याएं</string>
+    <string name="recent_listings">हाल की लिस्टिंग</string>
+    <string name="see_all">सभी देखें</string>
+    <string name="no_listings_yet">अभी कोई लिस्टिंग नहीं</string>
+    <string name="no_listings_available">कोई लिस्टिंग उपलब्ध नहीं</string>
+    
+    <!-- Create Listing -->
+    <string name="crop_type">फसल का प्रकार</string>
+    <string name="variety">किस्म</string>
+    <string name="quantity">मात्रा</string>
+    <string name="unit">इकाई</string>
+    <string name="price">कीमत</string>
+    <string name="min_price">न्यूनतम कीमत</string>
+    <string name="max_price">अधिकतम कीमत</string>
+    <string name="quality_grade">गुणवत्ता ग्रेड</string>
+    <string name="harvest_date">कटाई की तारीख</string>
+    <string name="harvest_start">कटाई शुरू</string>
+    <string name="harvest_end">कटाई समाप्त</string>
+    <string name="location">स्थान</string>
+    <string name="city">शहर</string>
+    <string name="state">राज्य</string>
+    <string name="description">विवरण</string>
+    <string name="photos">तस्वीरें</string>
+    <string name="select_photos">तस्वीरें चुनें</string>
+    <string name="publish_listing">लिस्टिंग प्रकाशित करें</string>
+    <string name="create_your_first_listing">अपनी पहली लिस्टिंग बनाएं</string>
+    
+    <!-- Listing Detail -->
+    <string name="price_range">कीमत सीमा</string>
+    <string name="per_kg">प्रति किलो</string>
+    <string name="grade">ग्रेड</string>
+    <string name="harvest_period">कटाई अवधि</string>
+    <string name="farmer_info">किसान</string>
+    <string name="listing_actions">लिस्टिंग कार्य</string>
+    <string name="mark_as_sold">बिका हुआ चिह्नित करें</string>
+    <string name="pause">रोकें</string>
+    <string name="reactivate_listing">दोबारा सक्रिय करें</string>
+    <string name="delete_listing">लिस्टिंग हटाएं</string>
+    <string name="start_negotiation">बातचीत शुरू करें</string>
+    <string name="confirm_delete">हटाना पुष्टि करें</string>
+    <string name="delete_warning">क्या आप निश्चित हैं कि आप इस लिस्टिंग को हटाना चाहते हैं? यह कार्रवाई पूर्ववत नहीं की जा सकती।</string>
+    <string name="active_negotiations_warning">चेतावनी: इस लिस्टिंग में सक्रिय बातचीत या अनुबंध हैं!</string>
+    <string name="yes_delete">हां, हटाएं</string>
+    <string name="cancel">रद्द करें</string>
+    
+    <!-- Status -->
+    <string name="active">सक्रिय</string>
+    <string name="inactive">निष्क्रिय</string>
+    <string name="sold">बिक गई</string>
+    <string name="draft">मसौदा</string>
+    <string name="paused">रोका गया</string>
+    <string name="closed">बंद</string>
+    
+    <!-- Search & Filter -->
+    <string name="search">खोजें</string>
+    <string name="search_crops">फसलें खोजें…</string>
+    <string name="filter">फ़िल्टर</string>
+    <string name="filters">फ़िल्टर</string>
+    <string name="apply_filters">फ़िल्टर लागू करें</string>
+    <string name="clear_filters">फ़िल्टर साफ़ करें</string>
+    <string name="price_range_filter">कीमत सीमा</string>
+    <string name="quantity_range">मात्रा सीमा</string>
+    <string name="sort_by">क्रमबद्ध करें</string>
+    <string name="newest_first">नवीनतम पहले</string>
+    <string name="oldest_first">पुरानी पहले</string>
+    <string name="price_low_high">कीमत: कम से अधिक</string>
+    <string name="price_high_low">कीमत: अधिक से कम</string>
+    <string name="quantity_high_low">मात्रा: अधिक से कम</string>
+    <string name="no_results_found">कोई लिस्टिंग नहीं मिली</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="update_information">अपनी जानकारी अपडेट करें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="update_password">अपना पासवर्ड अपडेट करें</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="manage_notifications">सूचनाएं प्रबंधित करें</string>
+    <string name="preferences">प्राथमिकताएं</string>
+    <string name="language">भाषा</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="switch_language">भाषा बदलें</string>
+    <string name="marathi">मराठी</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
+    
+    <!-- Theme -->
+    <string name="theme">थीम</string>
+    <string name="choose_theme">ऐप थीम चुनें</string>
+    <string name="theme_light">हल्का</string>
+    <string name="theme_dark">डार्क</string>
+    <string name="theme_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="change_appearance">ऐप की दिखावट बदलें</string>
+    <string name="support">सहायता</string>
+    <string name="help_center">सहायता केंद्र</string>
+    <string name="get_help">सहायता पाएं</string>
+    <string name="about">के बारे में</string>
+    <string name="app_version">ऐप संस्करण 1.0.0</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="read_policy">हमारी नीति पढ़ें</string>
+    <string name="log_out">लॉग आउट</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    
+    <!-- Common -->
+    <string name="save">सहेजें</string>
+    <string name="submit">जमा करें</string>
+    <string name="close">बंद करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="edit">संपादित करें</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="ok">ठीक है</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error">त्रुटि</string>
+    <string name="success">सफलता</string>
+    <string name="toggle_password_visibility">पासवर्ड दृश्यता टॉगल करें</string>
+    
+    <!-- Notifications -->
+    <string name="mark_all_read">सभी को पढ़ा हुआ चिह्नित करें</string>
+    <string name="no_notifications">कोई सूचना नहीं</string>
+    <string name="you_are_all_caught_up">आप सभी अपडेट हैं!</string>
+</resources>

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+data/
+uploads/
+*.log
+.env
+.env.local
+test_conn.js
+fix_db_prepare.js
+fix_promise.js
+verify-password.ts
+reset-password.ts
+.vercel

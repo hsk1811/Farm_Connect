@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Ankita ✨</title>
+    <meta name="description" content="A Valentine's Day message written in stars">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom cursor -->
+    <div id="cursor-glow"></div>
+    <div id="cursor-dot"></div>
+
+    <!-- Firework overlay canvas -->
+    <canvas id="fw-canvas"></canvas>
+
+    <!-- Rose petal container -->
+    <div id="petals"></div>
+
+    <!-- Click ripple container -->
+    <div id="ripple-container"></div>
+
+    <!-- Entry Screen -->
+    <div id="entry">
+        <div id="entry-content">
+            <div class="entry-line"></div>
+            <p class="entry-subtitle">a message written in stars</p>
+            <button id="enter-btn">
+                <span>Enter the Universe</span>
+                <div class="btn-shimmer"></div>
+            </button>
+            <p class="entry-hint">best with sound 🎵 · use mouse to explore</p>
+        </div>
+    </div>
+
+    <!-- Vignette -->
+    <div id="vignette"></div>
+
+    <!-- Intro typewriter -->
+    <div id="intro-text" class="overlay-text hidden">
+        <p id="typewriter"></p>
+    </div>
+
+    <!-- Name + subtitle -->
+    <div id="name-section" class="overlay-text hidden">
+        <h1 id="ankita-name">ANKITA</h1>
+        <p id="subtitle"></p>
+    </div>
+
+    <!-- Interactive word cloud -->
+    <div id="word-cloud" class="hidden">
+        <span class="cloud-word" style="--x:-30vw;--y:-20vh">eternity</span>
+        <span class="cloud-word" style="--x:25vw;--y:-15vh">warmth</span>
+        <span class="cloud-word" style="--x:-20vw;--y:25vh">forever</span>
+        <span class="cloud-word" style="--x:30vw;--y:20vh">heartbeat</span>
+        <span class="cloud-word" style="--x:-35vw;--y:5vh">soulmate</span>
+        <span class="cloud-word" style="--x:15vw;--y:-30vh">destiny</span>
+        <span class="cloud-word" style="--x:-10vw;--y:30vh">magic</span>
+        <span class="cloud-word" style="--x:35vw;--y:-5vh">universe</span>
+    </div>
+
+    <!-- Click hint -->
+    <div id="click-hint" class="overlay-text hidden">
+        <p>click for fireworks ✦ hold to create a gravity well ✦ move to draw constellations</p>
+    </div>
+
+    <!-- Scrollable content -->
+    <div id="scroll-container" class="hidden">
+        <section id="spacer"></section>
+
+        <!-- Envelope Section -->
+        <section id="envelope-section">
+            <div class="envelope-wrapper">
+                <p class="envelope-hint">↑ drag the flap upward to open ↑</p>
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap" id="envelope-flap"></div>
+                    <div class="envelope-body">
+                        <div class="envelope-letter" id="envelope-letter">
+                            <p class="letter-greeting">Dear Ankita,</p>
+                            <p class="letter-body">Some people search their whole lives for what I found in you. Every
+                                moment together feels like the universe pausing — just for us. You're my favorite
+                                everything.</p>
+                            <p class="letter-sign">— Yours, always ♥</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote -->
+        <section id="quote-section">
+            <blockquote class="scroll-quote" data-delay="0">
+                "I didn't find you at the right time.<br>You made every time the right time."
+            </blockquote>
+        </section>
+
+        <!-- Memories -->
+        <section id="memories">
+            <h2 class="memories-title" data-delay="0">Moments That Became Forever</h2>
+            <div class="memory-card" data-delay="100">
+                <div class="card-inner">
+                    <div class="card-number">01</div>
+                    <p>"The first time we laughed nonstop."</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+            <div class="memory-card" data-delay="250">
+                <div class="card-inner">
+                    <div class="card-number">02</div>
+                    <p>"That late-night conversation that changed everything."</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+            <div class="memory-card" data-delay="400">
+                <div class="card-inner">
+                    <div class="card-number">03</div>
+                    <p>"Every small moment that became everything."</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+            <div class="memory-card" data-delay="550">
+                <div class="card-inner">
+                    <div class="card-number">04</div>
+                    <p>"The silence between us that said more than words."</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+            <div class="memory-card" data-delay="700">
+                <div class="card-inner">
+                    <div class="card-number">05</div>
+                    <p>"When I realized — it was always you."</p>
+                    <div class="card-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Finale -->
+        <section id="finale">
+            <div id="finale-text" class="hidden">
+                <div class="finale-heart">&#10084;</div>
+                <h2>Happy Valentine's Day</h2>
+                <h3 class="finale-name">Ankita</h3>
+                <div class="finale-divider"></div>
+                <div class="finale-lines">
+                    <p class="finale-line" data-delay="800">Today.</p>
+                    <p class="finale-line" data-delay="1600">Tomorrow.</p>
+                    <p class="finale-line" data-delay="2400">Always.</p>
+                </div>
+                <p class="finale-closing" data-delay="3500">— with all my heart</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Floating messages -->
+    <div id="floating-messages"></div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
